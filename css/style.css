@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap');
 :root {
     --primary: #2A01FF;
     --dark: #21252f;
@@ -73,6 +73,11 @@ img {
 }
 .dream-life{
     letter-spacing: 8px;
+}
+.school-quote{
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 3px;
+    line-height: 1.8;
 }
 
 section {
@@ -233,6 +238,25 @@ form .form-control {
     background-color: rgba(0,0,0,0.02);
 }
 
+.motivation{
+    background-color: #EBEBEB;
+    padding: 40px;
+    text-align: center;
+  
+}
+.quote{
+    margin: 30px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1/8;
+    color: #646464;
+}
+.author{
+    font-size: 25px;
+    color: #3F3F3F;
+    font-weight: 700;
+    font-size: 1.5em;
+}
 
 .footer-top {
     padding-top: 90px;
